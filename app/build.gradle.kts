@@ -62,6 +62,7 @@ android {
 
 dependencies {
 
+
     implementation("com.google.firebase:firebase-auth:22.2.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.9.1")
     implementation("com.google.firebase:firebase-database:20.3.0")
@@ -72,6 +73,8 @@ dependencies {
     var navigation = "2.6.0"
     var material3_version = "1.0.0-alpha01"
 
+
+    implementation ("com.android.tools.build:gradle:8.1.2") // Use the version compatible with your project
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.0")

@@ -7,6 +7,7 @@ buildscript {
     }
     dependencies {
         classpath("com.google.gms:google-services:4.4.0")
+        classpath ("com.android.tools.build:gradle:4.2.2") // Use the version compatible with your project
     }
 }
 
